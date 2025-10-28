@@ -1,6 +1,7 @@
 # 🧠 PersonaRAG
 > LLM-augmented Information Retrieval (IR) & Question Answering over a personal knowledge corpus (resume, projects, docs).
-Licensed Under(./LICENSE)
+![Licensed Under](./LICENSE)
+
 ![Architecture](./PersonaRAG-architecture.png)
 
 PersonaRAG retrieves evidence from a curated personal corpus and generates grounded answers with inline citations. The system uses **hybrid retrieval (Dense + BM25)**, **cross-encoder reranking**, a **grounded LLM generator**, and a **Verifier** that filters unsupported sentences.
