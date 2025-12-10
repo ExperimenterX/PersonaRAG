@@ -1,0 +1,493 @@
+[
+    {
+        "id": "q1",
+        "question": "What are the main projects Bhavani has worked on?",
+        "relevant_sections": [
+            "projects[0]",
+            "projects[1]",
+            "experience"
+        ],
+        "keywords": [
+            "PersonaRAG",
+            "SyncAI",
+            "QueryMind",
+            "Grocery Price Compare"
+        ]
+    },
+    {
+        "id": "q2",
+        "question": "Where did Bhavani work before UIC?",
+        "relevant_sections": [
+            "experience[0]",
+            "experience[1]"
+        ],
+        "keywords": [
+            "Bosch Global Software Technologies",
+            "Senior Software Engineer",
+            "Bangalore"
+        ]
+    },
+    {
+        "id": "q3",
+        "question": "What programming languages does Bhavani know?",
+        "relevant_sections": [
+            "skills"
+        ],
+        "keywords": [
+            "Python",
+            "Golang",
+            "JavaScript",
+            "TypeScript",
+            "SQL"
+        ]
+    },
+    {
+        "id": "q4",
+        "question": "Tell me about Bhavani's experience with RAG systems",
+        "relevant_sections": [
+            "projects[1]",
+            "skills"
+        ],
+        "keywords": [
+            "PersonaRAG",
+            "Retrieval-Augmented Generation",
+            "FAISS",
+            "LangChain",
+            "hybrid retrieval"
+        ]
+    },
+    {
+        "id": "q5",
+        "question": "What is Bhavani's current position?",
+        "relevant_sections": [
+            "experience[0]"
+        ],
+        "keywords": [
+            "Graduate Assistant",
+            "University of Illinois Chicago",
+            "College of Engineering"
+        ]
+    },
+    {
+        "id": "q6",
+        "question": "What cloud platforms has Bhavani worked with?",
+        "relevant_sections": [
+            "skills"
+        ],
+        "keywords": [
+            "AWS",
+            "Azure",
+            "GCP",
+            "Docker",
+            "Kubernetes"
+        ]
+    },
+    {
+        "id": "q7",
+        "question": "What is PersonaRAG and what does it do?",
+        "relevant_sections": [
+            "projects[1]"
+        ],
+        "keywords": [
+            "PersonaRAG",
+            "Q&A system",
+            "FastAPI",
+            "FAISS",
+            "Vue.js",
+            "resume queries"
+        ]
+    },
+    {
+        "id": "q8",
+        "question": "What certifications does Bhavani have?",
+        "relevant_sections": [
+            "certifications",
+            "achievements"
+        ],
+        "keywords": [
+            "AWS",
+            "Azure",
+            "Docker",
+            "Golang",
+            "ChatGPT",
+            "33+ courses"
+        ]
+    },
+    {
+        "id": "q9",
+        "question": "What was Bhavani's role at Bosch?",
+        "relevant_sections": [
+            "experience[0]",
+            "experience[1]"
+        ],
+        "keywords": [
+            "Senior Software Engineer",
+            "task manager services",
+            "Golang",
+            "validation framework",
+            "CI/CD"
+        ]
+    },
+    {
+        "id": "q10",
+        "question": "What is Bhavani's educational background?",
+        "relevant_sections": [
+            "education[0]",
+            "education[1]"
+        ],
+        "keywords": [
+            "University of Illinois Chicago",
+            "Master of Science",
+            "Computer Science",
+            "Bachelor of Technology",
+            "Bangalore"
+        ]
+    },
+    {
+        "id": "q11",
+        "question": "What AI and ML technologies does Bhavani work with?",
+        "relevant_sections": [
+            "skills"
+        ],
+        "keywords": [
+            "LLMs",
+            "RAG",
+            "NLP",
+            "OpenAI",
+            "LangChain",
+            "Sentence Transformers",
+            "FAISS"
+        ]
+    },
+    {
+        "id": "q12",
+        "question": "How much did Bhavani improve system performance at Bosch?",
+        "relevant_sections": [
+            "experience[0]",
+            "experience[1]"
+        ],
+        "keywords": [
+            "15%",
+            "30%",
+            "4 days to 5 hours",
+            "95%",
+            "optimization"
+        ]
+    },
+    {
+        "id": "q13",
+        "question": "What frameworks and libraries does Bhavani use for frontend development?",
+        "relevant_sections": [
+            "skills"
+        ],
+        "keywords": [
+            "React",
+            "Angular",
+            "Vue.js",
+            "Electron",
+            "Next.js"
+        ]
+    },
+    {
+        "id": "q14",
+        "question": "Tell me about the SyncAI project",
+        "relevant_sections": [
+            "projects[0]"
+        ],
+        "keywords": [
+            "SyncAI",
+            "student assistant",
+            "AWS",
+            "Supabase",
+            "multi-stage retrieval"
+        ]
+    },
+    {
+        "id": "q15",
+        "question": "What databases has Bhavani worked with?",
+        "relevant_sections": [
+            "skills"
+        ],
+        "keywords": [
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Firebase",
+            "DynamoDB"
+        ]
+    },
+    {
+        "id": "q16",
+        "question": "What internship did Bhavani do in 2025?",
+        "relevant_sections": [
+            "experience"
+        ],
+        "keywords": [
+            "Rexroth",
+            "Hoffman Estates",
+            "Python",
+            "automation",
+            "EAL SDK"
+        ]
+    },
+    {
+        "id": "q17",
+        "question": "What awards or scholarships has Bhavani received?",
+        "relevant_sections": [
+            "achievements",
+            "awards"
+        ],
+        "keywords": [
+            "POS Scholarship",
+            "100 recipients",
+            "Outstanding Performance",
+            "Dean's List"
+        ]
+    },
+    {
+        "id": "q18",
+        "question": "What languages does Bhavani speak?",
+        "relevant_sections": [
+            "languages"
+        ],
+        "keywords": [
+            "English",
+            "Telugu",
+            "Hindi",
+            "Fluent",
+            "Native"
+        ]
+    },
+    {
+        "id": "q19",
+        "question": "What is Bhavani's email and contact information?",
+        "relevant_sections": [
+            "contact",
+            "basic_info"
+        ],
+        "keywords": [
+            "shankar.bhavani.in@gmail.com",
+            "872-899-2342",
+            "Chicago",
+            "LinkedIn",
+            "GitHub"
+        ]
+    },
+    {
+        "id": "q20",
+        "question": "What is the QueryMind project about?",
+        "relevant_sections": [
+            "projects"
+        ],
+        "keywords": [
+            "QueryMind",
+            "LangChain",
+            "custom retrievers",
+            "multi-vector embeddings",
+            "context-aware reranking"
+        ]
+    },
+    {
+        "id": "q21",
+        "question": "What backend technologies does Bhavani use?",
+        "relevant_sections": [
+            "skills"
+        ],
+        "keywords": [
+            "FastAPI",
+            "Flask",
+            "Express.js",
+            "Node.js",
+            "REST API",
+            "GraphQL"
+        ]
+    },
+    {
+        "id": "q22",
+        "question": "What courses is Bhavani taking at UIC?",
+        "relevant_sections": [
+            "education[0]"
+        ],
+        "keywords": [
+            "Responsible AI",
+            "NLP",
+            "Information Retrieval",
+            "Secure Web Development",
+            "Advanced Software Engineering"
+        ]
+    },
+    {
+        "id": "q23",
+        "question": "How did Bhavani reduce manual testing time at Bosch?",
+        "relevant_sections": [
+            "experience[1]"
+        ],
+        "keywords": [
+            "validation framework",
+            "4 days to 5 hours",
+            "automated",
+            "rule-driven checks"
+        ]
+    },
+    {
+        "id": "q24",
+        "question": "What is Bhavani's GitHub profile?",
+        "relevant_sections": [
+            "contact"
+        ],
+        "keywords": [
+            "github.com/ExperimenterX",
+            "GitHub"
+        ]
+    },
+    {
+        "id": "q25",
+        "question": "What are Bhavani's career goals?",
+        "relevant_sections": [
+            "career_goals"
+        ],
+        "keywords": [
+            "AI/ML systems",
+            "RAG architectures",
+            "AI Engineering",
+            "Backend Development",
+            "LLMs"
+        ]
+    },
+    {
+        "id": "q26",
+        "question": "What DevOps tools does Bhavani know?",
+        "relevant_sections": [
+            "skills"
+        ],
+        "keywords": [
+            "Docker",
+            "Kubernetes",
+            "Jenkins",
+            "GitHub Actions",
+            "Azure DevOps",
+            "CI/CD"
+        ]
+    },
+    {
+        "id": "q27",
+        "question": "When does Bhavani graduate from UIC?",
+        "relevant_sections": [
+            "education[0]"
+        ],
+        "keywords": [
+            "May 2026",
+            "Master's",
+            "Computer Science"
+        ]
+    },
+    {
+        "id": "q28",
+        "question": "What is the Grocery Price Compare application?",
+        "relevant_sections": [
+            "projects"
+        ],
+        "keywords": [
+            "Grocery Price Compare",
+            "price tracking",
+            "web scraping",
+            "MongoDB",
+            "data visualization"
+        ]
+    },
+    {
+        "id": "q29",
+        "question": "What software engineering practices does Bhavani follow?",
+        "relevant_sections": [
+            "skills"
+        ],
+        "keywords": [
+            "Clean Code",
+            "SOLID",
+            "Design Patterns",
+            "TDD",
+            "Agile",
+            "Microservices"
+        ]
+    },
+    {
+        "id": "q30",
+        "question": "What is Bhavani's portfolio website?",
+        "relevant_sections": [
+            "contact"
+        ],
+        "keywords": [
+            "shankarbhavani-fs.github.io",
+            "portfolio"
+        ]
+    },
+    {
+        "id": "q31",
+        "question": "What technologies were used to build PersonaRAG?",
+        "relevant_sections": [
+            "projects[1]"
+        ],
+        "keywords": [
+            "Python",
+            "FastAPI",
+            "FAISS",
+            "LangChain",
+            "Sentence Transformers",
+            "Vue.js"
+        ]
+    },
+    {
+        "id": "q32",
+        "question": "What are Bhavani's research interests?",
+        "relevant_sections": [
+            "research_interests"
+        ],
+        "keywords": [
+            "Information Retrieval",
+            "RAG",
+            "Prompt Engineering",
+            "Agentic AI",
+            "Responsible AI"
+        ]
+    },
+    {
+        "id": "q33",
+        "question": "What volunteer work has Bhavani done?",
+        "relevant_sections": [
+            "volunteer"
+        ],
+        "keywords": [
+            "mentor",
+            "open-source",
+            "technical workshop",
+            "coding bootcamps"
+        ]
+    },
+    {
+        "id": "q34",
+        "question": "What was Bhavani's GPA or academic standing?",
+        "relevant_sections": [
+            "education",
+            "achievements"
+        ],
+        "keywords": [
+            "Dean's List",
+            "academic excellence"
+        ]
+    },
+    {
+        "id": "q35",
+        "question": "What are Bhavani's hobbies and interests?",
+        "relevant_sections": [
+            "interests"
+        ],
+        "keywords": [
+            "AI/ML applications",
+            "open-source",
+            "photography",
+            "chess",
+            "travel"
+        ]
+    }
+]

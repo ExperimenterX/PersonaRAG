@@ -1,0 +1,551 @@
+{
+    "profile": {
+        "name": "Bhavani Shankar",
+        "headline": "MSCS @ UIC | Ex-Bosch Engineer | Actively Seeking Internship Opportunities",
+        "location": "Chicago, IL",
+        "email": "shankar.bhavani.in@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/shankar-bhavani/",
+        "github": "https://github.com/ExperimenterX",
+        "portfolio": "https://shankarbhavani-fs.github.io/",
+        "website": "https://shankarbhavani-fs.github.io/",
+        "summary": "Results-driven software engineer with 3+ years of experience in full-stack development, cloud technologies, and AI/ML systems. Currently pursuing Master's in Computer Science at University of Illinois Chicago with focus on Artificial Intelligence and Software Engineering."
+    },
+    "education": [
+        {
+            "institution": "University of Illinois at Chicago",
+            "degree": "Master of Science in Computer Science",
+            "field": "Computer Science",
+            "specialization": "Artificial Intelligence & Software Engineering",
+            "start": "2024-08",
+            "end": "2026-05",
+            "gpa": "4.0/4.0",
+            "location": "Chicago, IL",
+            "relevant_coursework": [
+                "Machine Learning",
+                "Natural Language Processing",
+                "Advanced Algorithms",
+                "Software Engineering",
+                "Distributed Systems",
+                "Cloud Computing"
+            ]
+        },
+        {
+            "institution": "University/College (Previous)",
+            "degree": "Bachelor of Technology",
+            "field": "Computer Science and Engineering",
+            "start": "2017-08",
+            "end": "2021-05",
+            "location": "India",
+            "relevant_coursework": [
+                "Data Structures",
+                "Algorithms",
+                "Database Management Systems",
+                "Operating Systems",
+                "Computer Networks"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "company": "Bosch Global Software Technologies",
+            "title": "Senior Software Engineer",
+            "start": "2021-04",
+            "end": "2024-08",
+            "location": "India",
+            "type": "Full-time",
+            "bullets": [
+                "Developed and maintained REST APIs using Golang and Angular framework, achieving 15% performance improvement and reducing API latency by 4 seconds",
+                "Engineered comprehensive app validation framework in Go, reducing manual testing time from 4 days to 5 hours, saving 160+ hours per release cycle",
+                "Led microservices architecture implementation using Docker and Kubernetes, improving system scalability and deployment efficiency",
+                "Collaborated with cross-functional teams to deliver cloud-native solutions on AWS and Azure platforms",
+                "Implemented CI/CD pipelines using Azure DevOps, reducing deployment time by 60%",
+                "Mentored junior developers on best practices for clean code, design patterns, and SOLID principles"
+            ],
+            "technologies": [
+                "Golang",
+                "Angular",
+                "REST APIs",
+                "Docker",
+                "Kubernetes",
+                "AWS",
+                "Azure",
+                "Microservices",
+                "CI/CD",
+                "Azure DevOps"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Grocery Price Compare",
+            "description": "Full-stack web application that compares grocery prices across multiple stores to help users save money",
+            "stack": [
+                "React",
+                "Python",
+                "Firebase",
+                "REST APIs"
+            ],
+            "impact": "Helps users save up to $50 per shopping trip by comparing prices from 10+ grocery stores",
+            "highlights": [
+                "Built responsive frontend using React with real-time price updates",
+                "Implemented backend scraping service in Python to fetch prices from multiple stores",
+                "Integrated Firebase for user authentication and data persistence",
+                "Deployed on cloud infrastructure with 99.9% uptime"
+            ],
+            "links": {
+                "github": "github.com/ExperimenterX/grocery-price-compare",
+                "demo": "grocery-compare.app"
+            }
+        },
+        {
+            "name": "PersonaRAG - AI Resume Assistant",
+            "description": "Intelligent Q&A system using RAG (Retrieval-Augmented Generation) for personalized resume queries",
+            "stack": [
+                "Python",
+                "FastAPI",
+                "FAISS",
+                "LangChain",
+                "Sentence Transformers",
+                "Vue.js"
+            ],
+            "impact": "Enables natural language queries about resume content with context-aware responses",
+            "highlights": [
+                "Implemented hybrid retrieval system combining dense (FAISS) and sparse (BM25) search",
+                "Integrated cross-encoder reranking for improved result relevance",
+                "Built FastAPI backend with efficient document indexing and retrieval",
+                "Created interactive Vue.js frontend for seamless user experience"
+            ]
+        }
+    ],
+    "skills": {
+        "programming_languages": [
+            "Python",
+            "Golang",
+            "JavaScript",
+            "TypeScript",
+            "SQL",
+            "HTML/CSS"
+        ],
+        "frameworks_libraries": [
+            "React",
+            "Angular",
+            "Vue.js",
+            "Node.js",
+            "FastAPI",
+            "Flask",
+            "Express.js",
+            "LangChain",
+            "LlamaIndex"
+        ],
+        "cloud_devops": [
+            "AWS (EC2, S3, Lambda, DynamoDB)",
+            "Azure (App Services, DevOps, Functions)",
+            "GCP (Compute Engine, Cloud Storage)",
+            "Docker",
+            "Kubernetes",
+            "CI/CD",
+            "GitHub Actions",
+            "Azure DevOps"
+        ],
+        "databases": [
+            "PostgreSQL",
+            "MySQL",
+            "MongoDB",
+            "Redis",
+            "Firebase",
+            "DynamoDB"
+        ],
+        "ai_ml": [
+            "Machine Learning",
+            "Natural Language Processing",
+            "Large Language Models (LLMs)",
+            "OpenAI API",
+            "ChatGPT",
+            "Google Gemini",
+            "LLM Fine-tuning",
+            "RAG Systems",
+            "Sentence Transformers",
+            "FAISS"
+        ],
+        "tools_technologies": [
+            "Git",
+            "GitHub",
+            "REST APIs",
+            "gRPC",
+            "Microservices",
+            "WebSockets",
+            "GraphQL",
+            "Swagger/OpenAPI",
+            "YAML",
+            "Test-Driven Development"
+        ],
+        "software_engineering": [
+            "Clean Code Principles",
+            "Design Patterns",
+            "SOLID Principles",
+            "System Design",
+            "Microservices Architecture",
+            "Test Case Management",
+            "Agile/Scrum Methodologies"
+        ]
+    },
+    "certifications": [
+        {
+            "name": "AWS Essentials",
+            "issuer": "Amazon Web Services",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["AWS", "Cloud Computing", "EC2", "S3", "Lambda"]
+        },
+        {
+            "name": "Azure Fundamentals",
+            "issuer": "Microsoft",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["Azure", "Cloud Computing", "Azure Services"]
+        },
+        {
+            "name": "Azure DevOps Crash Course - CI/CD",
+            "issuer": "Microsoft/Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["Azure DevOps", "CI/CD", "DevOps", "Continuous Integration"]
+        },
+        {
+            "name": "GCP Fundamentals",
+            "issuer": "Google Cloud",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["GCP", "Cloud Computing", "Google Cloud Platform"]
+        },
+        {
+            "name": "Docker for Beginners",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["Docker", "Containerization", "DevOps"]
+        },
+        {
+            "name": "Backend Masterclass",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["Backend Development", "APIs", "Databases", "System Design"]
+        },
+        {
+            "name": "Fundamentals of Backend Engineering",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["Backend Development", "Server Architecture", "APIs"]
+        },
+        {
+            "name": "Microservices Architecture",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["Microservices", "Distributed Systems", "System Design"]
+        },
+        {
+            "name": "Working with Microservices",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["Microservices", "Service Mesh", "APIs"]
+        },
+        {
+            "name": "gRPC & Microservices",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["gRPC", "Microservices", "Protocol Buffers"]
+        },
+        {
+            "name": "System Design",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["System Design", "Architecture", "Scalability"]
+        },
+        {
+            "name": "OpenAI API Course",
+            "issuer": "OpenAI/Udemy",
+            "date": "2024",
+            "credential_id": "",
+            "skills": ["OpenAI API", "GPT", "AI Integration"]
+        },
+        {
+            "name": "ChatGPT and LangChain",
+            "issuer": "Udemy",
+            "date": "2024",
+            "credential_id": "",
+            "skills": ["ChatGPT", "LangChain", "LLM Applications"]
+        },
+        {
+            "name": "ChatGPT for Business",
+            "issuer": "Udemy",
+            "date": "2024",
+            "credential_id": "",
+            "skills": ["ChatGPT", "Business Applications", "AI Strategy"]
+        },
+        {
+            "name": "ChatGPT Security",
+            "issuer": "Udemy",
+            "date": "2024",
+            "credential_id": "",
+            "skills": ["AI Security", "ChatGPT", "Data Privacy"]
+        },
+        {
+            "name": "Generative AI for Business",
+            "issuer": "Udemy",
+            "date": "2024",
+            "credential_id": "",
+            "skills": ["Generative AI", "Business Strategy", "AI Implementation"]
+        },
+        {
+            "name": "Generative AI - Risk Management",
+            "issuer": "Udemy",
+            "date": "2024",
+            "credential_id": "",
+            "skills": ["AI Risk", "Compliance", "AI Governance"]
+        },
+        {
+            "name": "LlamaIndex",
+            "issuer": "Udemy",
+            "date": "2024",
+            "credential_id": "",
+            "skills": ["LlamaIndex", "RAG", "Document Indexing"]
+        },
+        {
+            "name": "LLM Fine-tuning on OpenAI",
+            "issuer": "OpenAI/Udemy",
+            "date": "2024",
+            "credential_id": "",
+            "skills": ["Fine-tuning", "LLMs", "Model Training"]
+        },
+        {
+            "name": "Google Gemini Guide",
+            "issuer": "Google/Udemy",
+            "date": "2024",
+            "credential_id": "",
+            "skills": ["Google Gemini", "AI Models", "Google AI"]
+        },
+        {
+            "name": "GitHub Copilot",
+            "issuer": "GitHub/Microsoft",
+            "date": "2024",
+            "credential_id": "",
+            "skills": ["GitHub Copilot", "AI-Assisted Coding", "Productivity"]
+        },
+        {
+            "name": "JavaScript Basics for Beginners",
+            "issuer": "Udemy",
+            "date": "2022",
+            "credential_id": "",
+            "skills": ["JavaScript", "Frontend Development", "Web Development"]
+        },
+        {
+            "name": "Advanced JavaScript",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["JavaScript", "ES6+", "Advanced Concepts"]
+        },
+        {
+            "name": "Web Development with Go",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["Golang", "Web Development", "Backend"]
+        },
+        {
+            "name": "Go Concurrency",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["Golang", "Concurrency", "Goroutines"]
+        },
+        {
+            "name": "Go WebSocket",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["Golang", "WebSocket", "Real-time Communication"]
+        },
+        {
+            "name": "Golang Design Patterns",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["Golang", "Design Patterns", "Software Architecture"]
+        },
+        {
+            "name": "Design Patterns in Go",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["Design Patterns", "Golang", "OOP"]
+        },
+        {
+            "name": "SOLID Principles",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["SOLID", "Software Design", "Best Practices"]
+        },
+        {
+            "name": "Clean Code",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["Clean Code", "Code Quality", "Best Practices"]
+        },
+        {
+            "name": "OpenAPI Specification - Swagger",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["OpenAPI", "Swagger", "API Documentation"]
+        },
+        {
+            "name": "OpenAPI",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["OpenAPI", "REST APIs", "API Design"]
+        },
+        {
+            "name": "Test Case Management",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["Testing", "QA", "Test Management"]
+        },
+        {
+            "name": "YAML",
+            "issuer": "Udemy",
+            "date": "2023",
+            "credential_id": "",
+            "skills": ["YAML", "Configuration", "DevOps"]
+        }
+    ],
+    "professional_development": [
+        {
+            "name": "Management & Self Leadership",
+            "issuer": "Udemy",
+            "date": "2024",
+            "type": "Professional Development",
+            "skills": ["Leadership", "Management", "Self-improvement"]
+        },
+        {
+            "name": "Confident Leader",
+            "issuer": "Udemy",
+            "date": "2024",
+            "type": "Professional Development",
+            "skills": ["Leadership", "Confidence", "Team Management"]
+        },
+        {
+            "name": "Mindful Resilience",
+            "issuer": "Udemy",
+            "date": "2024",
+            "type": "Professional Development",
+            "skills": ["Resilience", "Mental Health", "Work-Life Balance"]
+        }
+    ],
+    "volunteer_experience": [
+        {
+            "organization": "UI health guest services",
+            "role": "Contributor",
+            "start": "2024-12",
+            "end": "Present",
+            "description": "",
+            "activities": [
+                "Assisting with writing motivational notes for patients to boost their morale and positivity during treatment",
+                "Collaborating with a team to create uplifting messages that provide emotional support to patients",
+                "cooking homemade snacks for patients and hospital staff."
+            ]
+        },
+        {
+            "organization": "Google local guides",
+            "role": "Contributor",
+            "start": "2022",
+            "end": "Present",
+            "description": "",
+            "activities": [
+                "Writing reviews and sharing photos of local businesses and attractions to help others discover new places",
+                "Providing accurate and helpful information about locations to enhance the community's knowledge",
+                "Earning points and badges to unlock new levels and benefits within the Google Local Guides program"
+            ]
+        }
+    ],
+    "extracurricular_activities": [
+        {
+            "activity": "Technical Blog Writing",
+            "description": "Writing technical articles on software engineering, cloud technologies, and AI/ML",
+            "duration": "2022 - Present"
+        },
+        {
+            "activity": "Hackathons",
+            "description": "Participated in multiple hackathons, winning awards for innovative solutions",
+            "duration": "2022 - Present"
+        },
+        {
+            "activity": "Tech Meetups & Conferences",
+            "description": "Regular attendee of local tech meetups and conferences in Chicago area",
+            "duration": "2024 - Present"
+        }
+    ],
+    "achievements": [
+        {
+            "title": "Performance Excellence Award",
+            "issuer": "Bosch Global Software Technologies",
+            "date": "2023",
+            "description": "Recognized for exceptional performance and innovative solutions in software development"
+        },
+        {
+            "title": "POS scholarship for Graduate Studeies",
+            "issuer": "University of Illinois Chicago",
+            "date": "2024-2025",
+            "description": "Awarded prestigious POS scholarship covering full tuition and stipend for academic excellence"
+        }
+    ],
+    "languages": [
+        {
+            "language": "English",
+            "proficiency": "Fluent"
+        },
+        {
+            "language": "Kannada",
+            "proficiency": "Native"
+        },
+        {
+            "language": "Hindi",
+            "proficiency": "Fluent"
+        }
+    ],
+    "interests": [
+        "Artificial Intelligence & Machine Learning",
+        "Cloud Computing & DevOps",
+        "System Design & Architecture",
+        "Open Source Contribution",
+        "Technical Writing",
+        "Continuous Learning"
+    ],
+    "Hobbies": [
+        "Coding & Software Development",
+        "Reading Tech Blogs & Articles",
+        "Traveling & Exploring New Places",
+        "Cooking",
+        "Gym",
+        "Sports & F1 motorsports"
+    ],
+    "contacts": {
+        "email": "shankar.bhavani.in@gmail.com",
+        "university-email": "bhav@uic.edu",
+        "linkedin": "https://www.linkedin.com/in/shankar-bhavani/",
+        "github": "https://github.com/ExperimenterX",
+        "portfolio": "https://shankarbhavani-fs.github.io/",
+        "website": "https://shankarbhavani-fs.github.io/",
+        "location": "Chicago, Illinois 60612"
+    }
+}
