@@ -72,3 +72,10 @@ faiss_document_store*
 node_modules/
 client/dist/
 client/node_modules/
+
+# some other files
+SAAS_ROADMAP.md
+SAAS_PRODUCT_ROADMAP.md
+
+#ouput
+output/

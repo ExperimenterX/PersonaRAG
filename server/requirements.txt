@@ -20,5 +20,8 @@ openai>=1.0.0
 
 rank-bm25
 
+# Optional benchmark datasets loader (HotpotQA / NQ / TriviaQA / MultiReQA)
+# datasets>=2.20.0
+
 # Optional: enable BM25 later (comment out if you don't want Java/Lucene deps)
 # pyserini==0.40.0

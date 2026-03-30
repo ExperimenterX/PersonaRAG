@@ -295,6 +295,40 @@ python -m app.eval.run_eval --mode all
 python -m app.eval.run_eval --help
 ```
 
+### External Benchmark Evaluation (HotpotQA / NQ / TriviaQA / MultiReQA)
+
+Use a separate evaluator entry point to test standard QA benchmarks while keeping
+the existing `eval_set.json` flow unchanged.
+
+```bash
+cd server
+
+# Install optional dependency once
+pip install datasets
+
+# HotpotQA (validation, first 1000 samples)
+python -m app.eval.run_benchmark_eval --benchmark hotpotqa --split validation --limit 1000 --mode hybrid_rerank
+
+# NQ Open
+python -m app.eval.run_benchmark_eval --benchmark nq --split validation --limit 1000 --mode hybrid_rerank
+
+# TriviaQA
+python -m app.eval.run_benchmark_eval --benchmark triviaqa --split validation --limit 1000 --mode hybrid_rerank
+
+# MultiReQA (override HF id/config if needed)
+python -m app.eval.run_benchmark_eval --benchmark multireqa --dataset-name <hf_dataset_id> --dataset-config <config_if_any> --split test --limit 1000 --mode hybrid_rerank
+
+# Compare all retrieval modes in one run
+python -m app.eval.run_benchmark_eval --benchmark hotpotqa --limit 1000 --mode all
+```
+
+Reported metrics include:
+- Exact Match (EM)
+- Token-level F1
+- Average Support Rate (verifier)
+- Context Answer Recall@K (proxy)
+- Average End-to-End Latency
+
 ### Sample Output
 
 ```
@@ -341,7 +375,16 @@ Create `.env` file in `server/` directory:
 ```bash
 OPENAI_API_KEY=your-api-key-here
 EMBED_MODEL=intfloat/e5-base-v2
+
+# Optional Apple CLaRA backend (Stage-1 compression + Stage-2 QA)
+CLARA_ENABLED=false
+CLARA_ENDPOINT=http://localhost:9000
+CLARA_TIMEOUT_SECONDS=30
+CLARA_COMPRESSION_RATE=32
 ```
+
+When `CLARA_ENABLED=true`, PersonaRAG attempts CLaRA generation first and
+automatically falls back to OpenAI generation if CLaRA is unavailable.
 
 ### Adding Your Own Data
 

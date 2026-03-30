@@ -6,6 +6,7 @@ from typing import List, Dict, Any
 
 from dotenv import load_dotenv
 from openai import OpenAI
+from app.generation.clara import clara_generate
 
 # Load .env (searches up the directory tree)
 load_dotenv()
@@ -89,6 +90,14 @@ def generate_answer(question: str, docs: List[Dict[str, Any]]) -> Dict[str, Any]
       - docs: list of { "content": str, "meta": {...} } from reranker
       - returns: { "answer": str, "citations": [...] }
     """
+    # Optional CLaRA path (Stage-1 compression + Stage-2 QA over compressed docs)
+    clara_out = clara_generate(question, docs)
+    if clara_out is not None:
+        return {
+            "answer": clara_out["answer"],
+            "citations": clara_out["citations"],
+        }
+
     contexts = build_context(docs)
     prompt = _build_rag_prompt(question, contexts)
 

@@ -4,6 +4,7 @@ from app.retrieval.hybrid import HybridRetriever
 from app.rerank.bge_reranker import CrossEncoderReranker
 from app.verifier.faithfulness import FaithfulnessVerifier
 from app.generation.generator import generate_answer, build_context
+from app.generation.clara import clara_enabled, clara_endpoint
 from app.core.config import K_RERANK
 from pathlib import Path
 from fastapi.staticfiles import StaticFiles
@@ -58,7 +59,11 @@ def get_verifier():
 @app.get("/health")
 def health():
     print("Health check OK")
-    return {"status": "ok"}
+    return {
+        "status": "ok",
+        "generation_backend": "clara" if clara_enabled() else "openai",
+        "clara_endpoint": clara_endpoint() if clara_enabled() else None,
+    }
 
 @app.get("/search")
 def search(q: str = Query(..., min_length=1), k: int = 10):
